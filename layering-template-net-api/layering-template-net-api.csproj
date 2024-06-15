@@ -8,40 +8,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="App\Account\**" />
+    <Compile Remove="App\Authentication\**" />
+    <Compile Remove="App\Authorization\**" />
+    <Compile Remove="App\Customer\**" />
+    <Content Remove="App\Account\**" />
+    <Content Remove="App\Authentication\**" />
+    <Content Remove="App\Authorization\**" />
+    <Content Remove="App\Customer\**" />
+    <EmbeddedResource Remove="App\Account\**" />
+    <EmbeddedResource Remove="App\Authentication\**" />
+    <EmbeddedResource Remove="App\Authorization\**" />
+    <EmbeddedResource Remove="App\Customer\**" />
+    <None Remove="App\Account\**" />
+    <None Remove="App\Authentication\**" />
+    <None Remove="App\Authorization\**" />
+    <None Remove="App\Customer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="App\Account\Controllers\" />
-    <Folder Include="App\Account\Interfaces\" />
-    <Folder Include="App\Account\Models\" />
-    <Folder Include="App\Account\Repositories\" />
-    <Folder Include="App\Account\Services\" />
-    <Folder Include="App\Authentication\Controllers\" />
-    <Folder Include="App\Authentication\Interfaces\" />
-    <Folder Include="App\Authentication\Models\" />
-    <Folder Include="App\Authentication\Repositories\" />
-    <Folder Include="App\Authentication\Services\" />
-    <Folder Include="App\Authorization\Controllers\" />
-    <Folder Include="App\Authorization\Interfaces\" />
-    <Folder Include="App\Authorization\Models\" />
-    <Folder Include="App\Authorization\Repositories\" />
-    <Folder Include="App\Authorization\Services\" />
-    <Folder Include="App\Customer\Controllers\" />
-    <Folder Include="App\Customer\Models\" />
-    <Folder Include="App\Customer\Interfaces\" />
-    <Folder Include="App\Customer\Repositories\" />
-    <Folder Include="App\Customer\Services\" />
-    <Folder Include="App\WeatherForecast\Interfaces\" />
-    <Folder Include="App\WeatherForecast\Repositories\" />
-    <Folder Include="App\WeatherForecast\Services\" />
-    <Folder Include="Config\Database\" />
-    <Folder Include="Dto\Response\" />
-    <Folder Include="Dto\Request\" />
-    <Folder Include="Modules\Classes\" />
-    <Folder Include="Modules\Middlewares\" />
-    <Folder Include="Modules\Exception\" />
-    <Folder Include="Modules\Utilities\" />
+    <Folder Include="App\Controllers\" />
   </ItemGroup>
 
 </Project>

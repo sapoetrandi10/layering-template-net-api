@@ -1,0 +1,1 @@
+package ini bertujuan untuk menyimpan config ke database seperti dbcontext
